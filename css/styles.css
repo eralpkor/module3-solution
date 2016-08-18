@@ -1,0 +1,58 @@
+@import 'https://fonts.googleapis.com/css?family=Signika:300,400,700';
+
+body{
+	font-family: 'Signika', sans-serif;
+}
+
+#navbar-top{
+	background-color: #BF6BDB;
+	border-radius: 0;
+  	border: 0;
+}
+.navbar-brand h1{
+	font-size: 1.5em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #1F2533;
+	font-weight: bold;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border:1px solid #8A1C88;
+}
+#bar-2{
+	margin-top: 60px;
+	font-size: 1.2em;
+}
+#bar-2 a{
+	background-color: #BF6BDB;
+	color: white;
+	text-align: center;
+}
+#bar-2 a:hover{
+	background: #E1B4F0;
+}
+#font-h1{
+	color: #1F2533;
+	margin-bottom: 40px;
+}
+#jumbo-box{
+	height: 1000px;
+	color: #1F2533;
+	background-color: #BF6BDB;
+	margin: 10px 10px 5px;
+	padding-top: 30px;
+}
+p{
+	font-size: 1.2em;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+@media (max-width: 767px) {
+  /* Header */
+  #jumbo-box{
+
+  }
+  }
