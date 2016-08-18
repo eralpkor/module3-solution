@@ -10,12 +10,14 @@ body{
   	border: 0;
 }
 .navbar-brand h1{
-	font-size: 1.5em;
+	font-size: 1.6em;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	color: #1F2533;
 	font-weight: bold;
 	margin-left: 40px;
+	text-shadow: white 0px 0px 2px;
+	letter-spacing: 2px;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
@@ -42,7 +44,7 @@ body{
 #jumbo-box{
 	height: 1000px;
 	color: #1F2533;
-	background-color: #BF6BDB;
+	background-color: #E1C3EB;
 	margin: 10px 10px 5px;
 	padding-top: 30px;
 }
