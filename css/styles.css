@@ -56,10 +56,21 @@ p{
 @media (max-width: 767px) {
   /* Header */
   #jumbo-box{
-  	margin: 10px 40px 10px;
+  	margin: 10px 20px 10px;
   }
   p{
-  	margin-right: 20px;
-  	margin-left: 20px;
+  	margin-right: 15px;
+  	margin-left: 15px;
+  	font-size: 0.8em;
   }
+  #navbar-top{
+  	margin-right: 10px;
+  	margin-left: 10px;
   }
+  .navbar-brand h1{
+  	margin-left: auto;
+  }
+  #font-h1{
+  	font-size: 1.8em;
+  }
+}
