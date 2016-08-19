@@ -26,12 +26,24 @@ body{
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
 	border:1px solid #8A1C88;
 }
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border:1px solid #8A1C88;
+}
+.navbar-collapse.in{
+    background-color: #C9209C;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #BF6BDB;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #d624cf;
+}
 #bar-2{
 	margin-top: 60px;
 	font-size: 1.2em;
 }
 #bar-2 a{
-	background-color: #BF6BDB;
+	background-color: #C9209C;
 	color: white;
 	text-align: center;
 }
